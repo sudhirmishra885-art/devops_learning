@@ -33,4 +33,8 @@ syntax for this is - chmod ownerships symbol_mode permissions file_name
 in absolute mode- 4= read, 2=write, 1= execute, 0=no permission
 syntax- chmod absolute_mode file_name
 
-chmod- for changing ownerships and permissions
+chmod- for changing permissions
+chown- for changing ownerships
+
+Users and groups	        whoami, id, who, groups
+Searching and filtering 	find, grep, sort, wc
