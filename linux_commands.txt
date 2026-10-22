@@ -34,3 +34,4 @@ in absolute mode- 4= read, 2=write, 1= execute, 0=no permission
 syntax- chmod absolute_mode file_name
 
 chmod- for changing ownerships and permissions
+hello how are you
