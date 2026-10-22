@@ -1,0 +1,36 @@
+"""
+linux file system
+
+"""
+### linux basics and navigation
+
+pwd - Present working directory, ls-list,cd- current directory,clear for clear
+
+### file and directory management
+
+mkdir-mkdir directory_name- for making directory
+touch- touch file_name-     for making file 
+cp- cp file1.txt file2.txt-     for copies file1.txt to a new file2.txt in same folder.
+mv- mv old_name.txt new_name.txt-   for moving or change filename to another
+rm- rm filename.txt-    for removing file
+
+### reading files
+cat- cat file_name.txt - display all content of text file directly on terminal
+less- less file_name.txt- view the contents of a text file one page at a time without opening a heavy text editor.
+head- head file_name.txt- first 10 lines of a file to terminal screen.
+tail- tail file_name.txt- last 10 lines of a file to terminal.
+
+### file ownerships and permissions
+basics first-
+there are types  of ownerships-  1.user(u) 2.group(g) 3.others(o) 4.all(a)
+and the permissions are- 1. read(r) 2. write(w) 3. execute(x)
+there are two type of mode for giving permissions and ownerships
+a) symbolic or letter mode      b) absolute or number mode
+
+in a symbol mode we use-     (+) for add permissions,(-) for removes a permission,(=) sets exact permissions
+syntax for this is - chmod ownerships symbol_mode permissions file_name
+
+in absolute mode- 4= read, 2=write, 1= execute, 0=no permission
+syntax- chmod absolute_mode file_name
+
+chmod- for changing ownerships and permissions
